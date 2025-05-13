@@ -36,7 +36,7 @@ CONFIG = {
     'output': {
         'dir': 'maps',
         'map_filename': 'geomapbyFlame.html',
-        'advisors_export': 'final_advisors_w_orig_clusters.csv'
+        'advisors_export': 'final_advisors_w_clusters.csv'
     },
     'clustering': {
         'n_clusters': 5,

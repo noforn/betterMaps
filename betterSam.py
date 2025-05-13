@@ -28,6 +28,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger("advisor_map")
 
+# customize
+
 CONFIG = {
     'input': {
         'heartland_csv': 'HEARTLAND.csv',

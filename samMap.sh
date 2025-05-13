@@ -12,7 +12,7 @@ python3 betterSam.py
 echo ""
 echo "[*] LaFlame Says: generation complete, peep maps dir!"
 echo ""
-python3 -m http.server $PORT 
 PORT=8000
+python3 -m http.server $PORT 
 echo "[*] Map available to view at http://localhost:$PORT/geomapbyFlame.html"
 echo ""

@@ -13,6 +13,6 @@ echo ""
 echo "[*] LaFlame Says: generation complete, peep maps dir!"
 echo ""
 PORT=8000
-python3 -m http.server $PORT 
+cd maps && python3 -m http.server $PORT 
 echo "[*] Map available to view at http://localhost:$PORT/geomapbyFlame.html"
 echo ""

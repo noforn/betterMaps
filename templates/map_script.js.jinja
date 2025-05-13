@@ -1,0 +1,238 @@
+<script>
+var mapData = {{ map_data|safe }};
+var clusterColors = {{ cluster_colors|safe }};
+var N_CLUSTERS = {{ n_clusters }};
+var leafletMap;
+var markerLayers = {};
+const LOCAL_STORAGE_KEY = 'interactiveMapClusterAdjustments_v1'; 
+
+function saveAdjustmentsToLocalStorage() {
+    if (typeof localStorage !== 'undefined') {
+        try {
+            const dataToSave = mapData.map(loc => ({
+                id: loc.id,
+                current_cluster: loc.current_cluster
+            }));
+            localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(dataToSave));
+            alert('Cluster adjustments saved to local storage!');
+        } catch (e) {
+            console.error('Error saving to local storage:', e);
+            alert('Could not save adjustments. Local storage might be full or disabled.');
+        }
+    } else {
+        alert('Local storage is not available in this browser.');
+    }
+}
+
+function loadAdjustmentsFromLocalStorage() {
+    let adjustmentsWereLoaded = false;
+    if (typeof localStorage !== 'undefined') {
+        try {
+            const savedDataString = localStorage.getItem(LOCAL_STORAGE_KEY);
+            if (savedDataString) {
+                const savedAdjustments = JSON.parse(savedDataString);
+                let adjustmentsAppliedCount = 0;
+                mapData.forEach(loc => {
+                    const savedLoc = savedAdjustments.find(sLoc => sLoc.id === loc.id);
+                    if (savedLoc && typeof savedLoc.current_cluster !== 'undefined') { 
+                        loc.current_cluster = savedLoc.current_cluster;
+                        adjustmentsAppliedCount++;
+                    }
+                });
+                if (adjustmentsAppliedCount > 0) {
+                    console.log(adjustmentsAppliedCount + ' cluster adjustments loaded from local storage.');
+                    adjustmentsWereLoaded = true;
+                }
+            }
+        } catch (e) {
+            console.error('Error loading from local storage:', e);
+        }
+    }
+    return adjustmentsWereLoaded;
+}
+
+function clearSavedAdjustments() {
+    if (typeof localStorage !== 'undefined') {
+        try {
+            localStorage.removeItem(LOCAL_STORAGE_KEY);
+            alert('Saved cluster adjustments have been cleared. Reload the page to see initial K-Means clusters or re-save new ones.');
+        } catch (e) {
+            console.error('Error clearing local storage:', e);
+            alert('Could not clear adjustments.');
+        }
+    } else {
+        alert('Local storage is not available in this browser.');
+    }
+}
+
+function addDayCalculator() { 
+    var calculatorDiv = document.createElement('div');
+    calculatorDiv.id = 'day-calculator';
+    calculatorDiv.style.cssText = `position: fixed; top: 70px; left: 10px; background-color: white; border: 1px solid grey; padding: 8px; font-size: 11px; z-index: 1000; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); max-width: 180px;`;
+    document.body.appendChild(calculatorDiv);
+}
+
+function updateDayCalculator() { 
+    var calculatorDiv = document.getElementById('day-calculator');
+    if (!calculatorDiv) return;
+    var clusterOpportunities = {};
+    var totalOpportunity = 0;
+    mapData.forEach(loc => {
+        if (loc.current_cluster !== 'Other') {
+            if (!clusterOpportunities[loc.current_cluster]) { clusterOpportunities[loc.current_cluster] = 0; }
+            clusterOpportunities[loc.current_cluster] += loc.opportunity;
+            totalOpportunity += loc.opportunity;
+        }
+    });
+    var calculatorHtml = "<strong>18-Day Schedule (Excl. Other):</strong><br>";
+    for (let i = 0; i < N_CLUSTERS; i++) {
+        var opp = clusterOpportunities[i] || 0;
+        var days = totalOpportunity > 0 ? ((opp / totalOpportunity) * 18).toFixed(1) : "0.0";
+        var color = clusterColors[i] || 'black';
+        calculatorHtml += `<span style="color:${color};">●</span> Cluster ${i}: ${days} days<br>`;
+    }
+    calculatorDiv.innerHTML = calculatorHtml;
+}
+
+function refreshAllMarkerVisuals() { 
+    console.log("Refreshing all marker visuals based on current mapData.");
+    mapData.forEach(locData => {
+        const marker = markerLayers[locData.id];
+        if (marker) {
+            const newColor = clusterColors[locData.current_cluster] || 'black';
+            marker.setStyle({ color: newColor, fillColor: newColor });
+            marker.setPopupContent(generateJsPopupContent(locData.id)); 
+        }
+    });
+}
+
+function initializeMarkerLayers(mapInstance) {
+    leafletMap = mapInstance;
+    mapInstance.eachLayer(function(layer) {
+        if (layer instanceof L.CircleMarker && layer.options && layer.options.customId) {
+            markerLayers[layer.options.customId] = layer;
+        }
+    });
+
+    const adjustmentsWereLoaded = loadAdjustmentsFromLocalStorage();
+
+    if (adjustmentsWereLoaded) {
+        refreshAllMarkerVisuals();
+    } 
+
+    addDayCalculator(); 
+    updateLegend(); 
+    updateDayCalculator();
+}
+
+function generateJsPopupContent(locationId) { 
+    var locData = mapData.find(loc => loc.id === locationId);
+    if (!locData) return "";
+    var optionsHtml = "";
+    for (var i = 0; i < N_CLUSTERS; i++) {
+        optionsHtml += `<option value="${i}" ${locData.current_cluster == i ? 'selected' : ''}>Cluster ${i}</option>`;
+    }
+    optionsHtml += `<option value="Other" ${locData.current_cluster === 'Other' ? 'selected' : ''}>Other</option>`;
+    var branchHtml = locData.branch_details_for_popup.map(b_summary => {
+        return `<b>Branch ID:</b> ${b_summary.id}<br><b>Firm:</b> ${b_summary.firm_name || 'N/A'}<br><b>Office Address:</b> ${b_summary.address}<br><b>Office:</b> ${b_summary.office_city}, ${b_summary.office_state}<br><b>Branch Opportunity:</b> ${b_summary.opportunity_str}<br><b>Advisors (${b_summary.num_advisors}):</b><br>${b_summary.advisors_html}<hr>`;
+    }).join('');
+    return `<div style="max-height: 250px; overflow-y: auto;"><h4>Location Total: $${(locData.opportunity / 1000000).toFixed(2)}M</h4>Current Cluster: <strong style="color:${clusterColors[locData.current_cluster] || 'black'}">${locData.current_cluster}</strong><br>Original Cluster: ${locData.initial_cluster}<br><label for="cluster_select_${locationId}">Change Cluster:</label><select id="cluster_select_${locationId}" onchange="handleClusterChange('${locationId}', this.value)">${optionsHtml}</select><hr>${branchHtml}</div>`;
+}
+
+function handleClusterChange(locationId, newClusterValue) { 
+    var locData = mapData.find(loc => loc.id === locationId);
+    if (!locData) { console.error("Loc data not found:", locationId); return; }
+    locData.current_cluster = (newClusterValue !== "Other") ? parseInt(newClusterValue) : "Other";
+    var marker = markerLayers[locationId];
+    if (marker) {
+        var newColor = clusterColors[locData.current_cluster] || 'black';
+        marker.setStyle({ color: newColor, fillColor: newColor });
+        marker.setPopupContent(generateJsPopupContent(locationId)); 
+    } else { console.error("Marker not found for ID:", locationId); }
+    updateLegend();
+    updateDayCalculator();
+}
+
+function updateLegend() { 
+    var legendContentDiv = document.getElementById('cluster-legend-content');
+    if (!legendContentDiv) return;
+    var stats = {};
+    for (var i = 0; i < N_CLUSTERS; i++) { stats[i] = { total_opp: 0, count: 0 }; }
+    stats['Other'] = { total_opp: 0, count: 0 };
+    mapData.forEach(loc => {
+        var key = loc.current_cluster;
+        if (typeof stats[key] === 'undefined') return; 
+        stats[key].total_opp += loc.opportunity;
+        stats[key].count += 1;
+    });
+    var newLegendHtml = "<p><strong>Clusters (Manually Adjustable):</strong></p>";
+    for (var i = 0; i < N_CLUSTERS; i++) {
+        if (stats[i].count > 0) {
+            var totalOppM = (stats[i].total_opp / 1000000).toFixed(1);
+            var avgOppM = stats[i].count > 0 ? (stats[i].total_opp / stats[i].count / 1000000).toFixed(1) : "0.0";
+            newLegendHtml += `<p><span style="color:${clusterColors[i] || 'black'};">●</span> Cluster ${i}:<br>&nbsp;&nbsp;$${totalOppM}M Total<br>&nbsp;&nbsp;${stats[i].count} Locations<br>&nbsp;&nbsp;$${avgOppM}M Avg/Loc</p>`;
+        }
+    }
+    var otherTotalOppM = (stats['Other'].total_opp / 1000000).toFixed(1);
+    var otherAvgOppM = stats['Other'].count > 0 ? (stats['Other'].total_opp / stats['Other'].count / 1000000).toFixed(1) : "0.0";
+    newLegendHtml += `<p><span style="color:${clusterColors['Other']};">●</span> Other:<br>&nbsp;&nbsp;$${otherTotalOppM}M Total<br>&nbsp;&nbsp;${stats['Other'].count} Locations<br>&nbsp;&nbsp;$${otherAvgOppM}M Avg/Loc</p>`;
+    legendContentDiv.innerHTML = newLegendHtml;
+}
+
+function exportUpdatedClusters() {
+    let csvContent = "data:text/csv;charset=utf-8,";
+    csvContent += "DST Branch Internal ID,Office Address,Office City,Office State,DST Firm Name,SF Contact ID,BR Team Name,Data Driven Segment,Advisor Total MF Opportunity,Current Cluster\\n";
+    let rowsToExport = [];
+    mapData.forEach(loc => {
+        loc.branch_details_for_popup.forEach(branch_summary => {
+            branch_summary.individual_advisors_data.forEach(advisor => {
+                rowsToExport.push({
+                    branchId: branch_summary.id,
+                    address: branch_summary.address,
+                    city: branch_summary.office_city,
+                    state: branch_summary.office_state,
+                    firmName: branch_summary.firm_name,
+                    sfContactId: advisor.sf_contact_id, 
+                    teamName: advisor.team_name,
+                    segment: advisor.segment,
+                    advisorOpportunity: advisor.advisor_total_mf_opportunity,
+                    cluster: loc.current_cluster 
+                });
+            });
+        });
+    });
+    rowsToExport.sort((a, b) => {
+        let cityComparison = a.city.localeCompare(b.city);
+        if (cityComparison !== 0) return cityComparison;
+        let branchComparison = String(a.branchId).localeCompare(String(b.branchId));
+        if (branchComparison !== 0) return branchComparison;
+        return String(a.teamName).localeCompare(String(b.teamName));
+    });
+    rowsToExport.forEach(dataRow => {
+        let csvRowArray = [
+            dataRow.branchId,
+            dataRow.address,
+            dataRow.city,
+            dataRow.state,
+            dataRow.firmName,
+            dataRow.sfContactId,
+            dataRow.teamName,
+            dataRow.segment,
+            dataRow.advisorOpportunity,
+            dataRow.cluster
+        ].map(field => `"${String(field === null || typeof field === 'undefined' ? '' : field).replace(/"/g, '""')}"`).join(",");
+        csvContent += csvRowArray + "\\n";
+    });
+    var encodedUri = encodeURI(csvContent);
+    var link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", "updated_advisor_clusters_per_advisor.csv");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
+function onMapReady(mapInstance) {
+    initializeMarkerLayers(mapInstance);
+}
+</script>

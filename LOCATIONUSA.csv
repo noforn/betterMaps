@@ -1,0 +1,189 @@
+Official USPS city name,Official USPS State Code,Geo Point
+New York,NY,40.7128,-74.0060
+Los Angeles,CA,34.0522,-118.2437
+Chicago,IL,41.8781,-87.6298
+Houston,TX,29.7604,-95.3698
+Phoenix,AZ,33.4484,-112.0740
+Philadelphia,PA,39.9526,-75.1652
+San Antonio,TX,29.4241,-98.4936
+San Diego,CA,32.7157,-117.1611
+Dallas,TX,32.7767,-96.7970
+San Jose,CA,37.3382,-121.8863
+Austin,TX,30.2672,-97.7431
+Jacksonville,FL,30.3322,-81.6557
+Fort Worth,TX,32.7555,-97.3308
+Columbus,OH,39.9612,-82.9988
+Charlotte,NC,35.2271,-80.8431
+San Francisco,CA,37.7749,-122.4194
+Indianapolis,IN,39.7684,-86.1581
+Seattle,WA,47.6062,-122.3321
+Denver,CO,39.7392,-104.9903
+Washington,DC,38.9072,-77.0369
+Boston,MA,42.3601,-71.0589
+El Paso,TX,31.7619,-106.4850
+Nashville,TN,36.1627,-86.7816
+Oklahoma City,OK,35.4676,-97.5164
+Las Vegas,NV,36.1699,-115.1398
+Detroit,MI,42.3314,-83.0458
+Portland,OR,45.5051,-122.6750
+Memphis,TN,35.1495,-90.0490
+Louisville,KY,38.2527,-85.7585
+Milwaukee,WI,43.0389,-87.9065
+Baltimore,MD,39.2904,-76.6122
+Albuquerque,NM,35.0844,-106.6504
+Tucson,AZ,32.2226,-110.9747
+Mesa,AZ,33.4152,-111.8315
+Fresno,CA,36.7378,-119.7871
+Sacramento,CA,38.5816,-121.4944
+Atlanta,GA,33.7490,-84.3880
+Kansas City,MO,39.0997,-94.5786
+Colorado Springs,CO,38.8339,-104.8214
+Omaha,NE,41.2565,-95.9345
+Raleigh,NC,35.7796,-78.6382
+Miami,FL,25.7617,-80.1918
+Long Beach,CA,33.7701,-118.1937
+Virginia Beach,VA,36.8529,-75.9780
+Oakland,CA,37.8044,-122.2711
+Minneapolis,MN,44.9778,-93.2650
+Tampa,FL,27.9506,-82.4572
+Tulsa,OK,36.1540,-95.9928
+Arlington,TX,32.7357,-97.1081
+New Orleans,LA,29.9511,-90.0715
+Wichita,KS,37.6872,-97.3301
+Cleveland,OH,41.4993,-81.6944
+Bakersfield,CA,35.3733,-119.0187
+Aurora,CO,39.7294,-104.8319
+Anaheim,CA,33.8366,-117.9143
+Honolulu,HI,21.3069,-157.8583
+Santa Ana,CA,33.7455,-117.8677
+Riverside,CA,33.9806,-117.3755
+Corpus Christi,TX,27.8006,-97.3964
+Lexington,KY,38.0406,-84.5037
+St. Louis,MO,38.6270,-90.1994
+Stockton,CA,37.9577,-121.2908
+Pittsburgh,PA,40.4406,-79.9959
+Saint Paul,MN,44.9537,-93.0900
+Cincinnati,OH,39.1031,-84.5120
+Greensboro,NC,36.0726,-79.7920
+Anchorage,AK,61.2181,-149.9003
+Plano,TX,33.0198,-96.6989
+Lincoln,NE,40.8136,-96.7026
+Orlando,FL,28.5383,-81.3792
+Irvine,CA,33.6846,-117.8265
+Newark,NJ,40.7357,-74.1724
+Toledo,OH,41.6639,-83.5552
+Durham,NC,35.9940,-78.8986
+Chula Vista,CA,32.6401,-117.0842
+Fort Wayne,IN,41.0793,-85.1394
+Jersey City,NJ,40.7282,-74.0776
+St. Petersburg,FL,27.7676,-82.6403
+Laredo,TX,27.5306,-99.4803
+Madison,WI,43.0731,-89.4012
+Chandler,AZ,33.3062,-111.8413
+Buffalo,NY,42.8864,-78.8784
+Lubbock,TX,33.5779,-101.8552
+Scottsdale,AZ,33.4942,-111.9261
+Reno,NV,39.5296,-119.8138
+Glendale,AZ,33.5387,-112.1860
+Gilbert,AZ,33.3528,-111.7890
+Winston-Salem,NC,36.0999,-80.2442
+North Las Vegas,NV,36.1989,-115.1175
+Norfolk,VA,36.8508,-76.2859
+Chesapeake,VA,36.7682,-76.2875
+Garland,TX,32.9126,-96.6389
+Irving,TX,32.8140,-96.9489
+Hialeah,FL,25.8576,-80.2781
+Fremont,CA,37.5485,-121.9886
+Boise,ID,43.6150,-116.2023
+Richmond,VA,37.5407,-77.4360
+Baton Rouge,LA,30.4583,-91.1403
+Des Moines,IA,41.5868,-93.6250
+Spokane,WA,47.6588,-117.4260
+San Bernardino,CA,34.1083,-117.2898
+Modesto,CA,37.6391,-120.9969
+Tacoma,WA,47.2529,-122.4443
+Fontana,CA,34.0922,-117.4350
+Santa Clarita,CA,34.3917,-118.5426
+Birmingham,AL,33.5207,-86.8025
+Oxnard,CA,34.1975,-119.1771
+Fayetteville,NC,35.0527,-78.8784
+Rochester,NY,43.1566,-77.6088
+Port St. Lucie,FL,27.2730,-80.3483
+Grand Rapids,MI,42.9634,-85.6681
+Huntsville,AL,34.7304,-86.5861
+Salt Lake City,UT,40.7608,-111.8910
+Frisco,TX,33.1507,-96.8236
+Yonkers,NY,40.9312,-73.8987
+Amarillo,TX,35.2220,-101.8313
+Glendale,CA,34.1425,-118.2551
+Huntington Beach,CA,33.6595,-117.9988
+McKinney,TX,33.1972,-96.6397
+Montgomery,AL,32.3668,-86.2995
+Augusta,GA,33.4735,-82.0105
+Aurora,IL,41.7606,-88.3201
+Akron,OH,41.0814,-81.5190
+Little Rock,AR,34.7465,-92.2896
+Tempe,AZ,33.4255,-111.9400
+Columbus,GA,32.4610,-84.9877
+Overland Park,KS,38.9822,-94.6708
+Grand Prairie,TX,32.7459,-97.0072
+Tallahassee,FL,30.4383,-84.2807
+Cape Coral,FL,26.5629,-81.9495
+Mobile,AL,30.6954,-88.0399
+Knoxville,TN,35.9606,-83.9207
+Shreveport,LA,32.5252,-93.7502
+Worcester,MA,42.2626,-71.8023
+Ontario,CA,34.0633,-117.6509
+Vancouver,WA,45.6387,-122.6615
+Sioux Falls,SD,43.5446,-96.7311
+Chattanooga,TN,35.0456,-85.3097
+Brownsville,TX,25.9017,-97.4975
+Fort Lauderdale,FL,26.1224,-80.1373
+Providence,RI,41.8240,-71.4128
+Newport News,VA,37.0871,-76.4730
+Rancho Cucamonga,CA,34.1064,-117.5931
+Santa Rosa,CA,38.4406,-122.7144
+Peoria,AZ,33.5806,-112.2374
+Oceanside,CA,33.1959,-117.3795
+Elk Grove,CA,38.4088,-121.3716
+Salem,OR,44.9429,-123.0351
+Pembroke Pines,FL,26.0076,-80.2962
+Eugene,OR,44.0521,-123.0868
+Garden Grove,CA,33.7739,-117.9414
+Cary,NC,35.7915,-78.7811
+Springfield,MO,37.2090,-93.2923
+Fort Collins,CO,40.5853,-105.0844
+Corona,CA,33.8753,-117.5664
+Jackson,MS,32.2988,-90.1848
+Alexandria,VA,38.8048,-77.0469
+Hayward,CA,37.6688,-122.0808
+Clarksville,TN,36.5297,-87.3594
+Lakewood,CO,39.7047,-105.0814
+Lancaster,CA,34.6868,-118.1542
+Salinas,CA,36.6777,-121.6555
+Palmdale,CA,34.5794,-118.1165
+Hollywood,FL,26.0112,-80.1495
+Kansas City,KS,39.1141,-94.6275
+Sunnyvale,CA,37.3688,-122.0363
+Macon,GA,32.8407,-83.6324
+Pomona,CA,34.0553,-117.7523
+Escondido,CA,33.1192,-117.0864
+Killeen,TX,31.1171,-97.7278
+Pasadena,TX,29.6910,-95.2091
+Naperville,IL,41.7508,-88.1535
+Bellevue,WA,47.6101,-122.2015
+Joliet,IL,41.5250,-88.0817
+Murfreesboro,TN,35.8457,-86.3903
+Midland,TX,31.9973,-102.0779
+Rockford,IL,42.2711,-89.0940
+Paterson,NJ,40.9167,-74.1718
+Savannah,GA,32.0809,-81.0912
+Bridgeport,CT,41.1792,-73.1894
+Torrance,CA,33.8358,-118.3406
+McAllen,TX,26.2034,-98.2300
+Syracuse,NY,43.0481,-76.1474
+Surprise,AZ,33.6292,-112.3680
+Denton,TX,33.2148,-97.1331
+Roseville,CA,38.7521,-121.2880
+Thornton,CO,39.8680,-104.9719
+Miramar,FL,25.9860,-80.3035

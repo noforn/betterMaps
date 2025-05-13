@@ -1,0 +1,201 @@
+SF Contact ID,BR Team ID,Entity ID,BR Team Name,Entity Name,DST Branch Internal ID,DST Firm Name,Office Address,Office City,Office State,Data Driven Segment, Total MF Opportunity 
+SF00001,BR1001,E101,Alpha Advisors,Alpha Financial Group,B1001,GlobalWealth Partners,123 Main Street Suite 400,New York,NY,1 - Tier 1,$183500000
+SF00002,BR1002,E101,Beta Management,Alpha Financial Group,B1001,GlobalWealth Partners,123 Main Street Suite 400,New York,NY,1 - Tier 1,$157200000
+SF00003,BR1003,E102,Gamma Investments,Gamma Wealth LLC,B1002,Coastal Securities,456 Market Avenue,Boston,MA,1 - Tier 1,$142800000
+SF00004,BR1004,E103,Delta Financial,Delta Group Inc.,B1003,Mountain Trust,789 Broadway,San Francisco,CA,1 - Tier 1,$136500000
+SF00005,BR1005,E104,Epsilon Advisory,Epsilon Partners,B1004,National Financial Services,101 Park Place,Chicago,IL,1 - Tier 1,$128700000
+SF00006,BR1006,E105,Zeta Capital,Zeta Holdings,B1005,Heartland Investments,202 Liberty Street,Dallas,TX,1 - Tier 1,$119200000
+SF00007,BR1007,E106,Eta Wealth,Eta Management LLC,B1006,Atlantic Advisors,303 Oak Drive,Miami,FL,1 - Tier 1,$112400000
+SF00008,BR1008,E107,Theta Financial,Theta Group,B1007,Pacific Wealth Management,404 Pine Avenue,Los Angeles,CA,1 - Tier 1,$108900000
+SF00009,BR1009,E108,Iota Advisors,Iota Partners,B1008,Midwest Financial Group,505 Elm Street,Houston,TX,1 - Tier 1,$103600000
+SF00010,BR1010,E109,Kappa Investments,Kappa Capital,B1009,Western Securities,606 Maple Road,Seattle,WA,1 - Tier 1,$98700000
+SF00011,BR1011,E110,Lambda Planning,Lambda Associates,B1010,Southern Trust,707 Cedar Lane,Atlanta,GA,2 - Tier 2,$95200000
+SF00012,BR1012,E111,Mu Capital,Mu Wealth Management,B1011,Northern Investments,808 Birch Street,Philadelphia,PA,2 - Tier 2,$92800000
+SF00013,BR1013,E112,Nu Financial,Nu Advisors LLC,B1012,Central Securities,909 Walnut Avenue,Phoenix,AZ,2 - Tier 2,$88300000
+SF00014,BR1014,E113,Xi Wealth,Xi Partners,B1013,Eastern Trust,1010 Chestnut Road,Denver,CO,2 - Tier 2,$85700000
+SF00015,BR1015,E114,Omicron Advisors,Omicron Group,B1014,Great Lakes Financial,1111 Spruce Drive,Detroit,MI,2 - Tier 2,$82400000
+SF00016,BR1016,E115,Pi Management,Pi Financial,B1015,Rocky Mountain Advisors,1212 Sycamore Lane,San Diego,CA,2 - Tier 2,$79900000
+SF00017,BR1017,E116,Rho Investments,Rho Capital,B1016,Sunshine State Securities,1313 Willow Street,Tampa,FL,2 - Tier 2,$76200000
+SF00018,BR1018,E117,Sigma Advisory,Sigma Partners,B1017,Golden State Investments,1414 Aspen Circle,San Jose,CA,2 - Tier 2,$74800000
+SF00019,BR1019,E118,Tau Financial,Tau Wealth,B1018,Empire Financial Group,1515 Redwood Court,Jacksonville,FL,2 - Tier 2,$71300000
+SF00020,BR1020,E119,Upsilon Capital,Upsilon Management,B1019,Lone Star Securities,1616 Magnolia Drive,Austin,TX,2 - Tier 2,$68900000
+SF00021,BR1021,E120,Phi Advisors,Phi Group,B1020,Gateway Financial,1717 Dogwood Lane,St. Louis,MO,2 - Tier 2,$66500000
+SF00022,BR1022,E121,Chi Investments,Chi Partners,B1021,Cascade Investments,1818 Cypress Avenue,Portland,OR,2 - Tier 2,$63200000
+SF00023,BR1023,E122,Psi Management,Psi Financial,B1022,Buckeye Advisors,1919 Poplar Street,Columbus,OH,2 - Tier 2,$61800000
+SF00024,BR1024,E123,Omega Wealth,Omega Capital,B1023,Garden State Securities,2020 Holly Road,Nashville,TN,2 - Tier 2,$58400000
+SF00025,BR1025,E124,Alpha Prime Advisors,Alpha Prime Group,B1024,Desert Financial,2121 Palm Drive,Las Vegas,NV,2 - Tier 2,$56900000
+SF00026,BR1026,E125,Beta Select,Beta Select Partners,B1025,Mountain West Securities,2222 Pine Trail,Salt Lake City,UT,3 - Tier 3,$53700000
+SF00027,BR1027,E126,Gamma Elite,Gamma Elite Wealth,B1026,Peach State Financial,2323 Oak Circle,Charlotte,NC,3 - Tier 3,$51200000
+SF00028,BR1028,E127,Delta Premier,Delta Premier Advisors,B1027,Bay Area Investments,2424 Cedar Court,San Antonio,TX,3 - Tier 3,$49800000
+SF00029,BR1029,E128,Epsilon Select,Epsilon Select Management,B1028,Emerald City Advisors,2525 Maple Avenue,Indianapolis,IN,3 - Tier 3,$47300000
+SF00030,BR1030,E129,Zeta Preferred,Zeta Preferred Capital,B1029,Crescent City Securities,2626 Elm Road,New Orleans,LA,3 - Tier 3,$45900000
+SF00031,BR1031,E130,Eta Premier,Eta Premier Advisors,B1030,Harbor Financial Group,2727 Birch Drive,Baltimore,MD,3 - Tier 3,$43400000
+SF00032,BR1032,E131,Theta Select,Theta Select Partners,B1031,River City Investments,2828 Walnut Lane,Sacramento,CA,3 - Tier 3,$41800000
+SF00033,BR1033,E132,Iota Elite,Iota Elite Management,B1032,Capital City Advisors,2929 Spruce Street,Washington,DC,3 - Tier 3,$39600000
+SF00034,BR1034,E133,Kappa Premier,Kappa Premier Wealth,B1033,Sooner State Securities,3030 Chestnut Avenue,Oklahoma City,OK,3 - Tier 3,$37200000
+SF00035,BR1035,E134,Lambda Select,Lambda Select Advisors,B1034,Beehive Financial,3131 Sycamore Road,Salt Lake City,UT,3 - Tier 3,$35900000
+SF00036,BR1036,E135,Mu Preferred,Mu Preferred Capital,B1035,Volunteer State Investments,3232 Willow Lane,Memphis,TN,3 - Tier 3,$33500000
+SF00037,BR1037,E136,Nu Elite,Nu Elite Partners,B1036,Bayou State Securities,3333 Aspen Drive,Baton Rouge,LA,3 - Tier 3,$31800000
+SF00038,BR1038,E137,Xi Premier,Xi Premier Management,B1037,Evergreen State Advisors,3434 Redwood Avenue,Spokane,WA,3 - Tier 3,$29600000
+SF00039,BR1039,E138,Omicron Select,Omicron Select Wealth,B1038,Bluegrass Financial,3535 Magnolia Lane,Louisville,KY,3 - Tier 3,$27900000
+SF00040,BR1040,E139,Pi Elite,Pi Elite Advisors,B1039,Badger State Investments,3636 Dogwood Circle,Milwaukee,WI,3 - Tier 3,$25700000
+SF00041,BR1041,E140,Rho Premier,Rho Premier Capital,B1040,Ocean State Securities,3737 Cypress Road,Providence,RI,3 - Tier 3,$23800000
+SF00042,BR1042,E141,Sigma Select,Sigma Select Partners,B1041,Palmetto State Advisors,3838 Poplar Court,Charleston,SC,3 - Tier 3,$21500000
+SF00043,BR1043,E142,Tau Elite,Tau Elite Management,B1042,Garden State Investments,3939 Holly Street,Newark,NJ,3 - Tier 3,$19800000
+SF00044,BR1044,E143,Upsilon Premier,Upsilon Premier Wealth,B1043,Treasure State Securities,4040 Palm Court,Billings,MT,3 - Tier 3,$17600000
+SF00045,BR1045,E144,Phi Select,Phi Select Advisors,B1044,Diamond State Financial,4141 Pine Circle,Wilmington,DE,3 - Tier 3,$15900000
+SF00046,BR1046,E145,Chi Elite,Chi Elite Capital,B1045,Natural State Investments,4242 Oak Lane,Little Rock,AR,4 - Tier 4,$13700000
+SF00047,BR1047,E146,Psi Premier,Psi Premier Partners,B1046,Granite State Securities,4343 Cedar Road,Manchester,NH,4 - Tier 4,$11800000
+SF00048,BR1048,E147,Omega Select,Omega Select Management,B1047,Green Mountain Advisors,4444 Maple Drive,Burlington,VT,4 - Tier 4,$9600000
+SF00049,BR1049,E148,Alpha Core,Alpha Core Wealth,B1048,Cornhusker Financial,4545 Elm Court,Omaha,NE,4 - Tier 4,$7800000
+SF00050,BR1050,E149,Beta Foundation,Beta Foundation Advisors,B1049,Silver State Securities,4646 Birch Avenue,Reno,NV,4 - Tier 4,$5900000
+SF00051,BR1051,E150,Gamma Cornerstone,Gamma Cornerstone Capital,B1050,Last Frontier Investments,4747 Walnut Street,Anchorage,AK,4 - Tier 4,$3700000
+SF00052,BR1052,E151,Delta Base,Delta Base Management,B1051,Aloha State Advisors,4848 Spruce Lane,Honolulu,HI,4 - Tier 4,$1900000
+SF00053,BR1053,E152,Epsilon Foundation,Epsilon Foundation Partners,B1052,First State Securities,4949 Chestnut Drive,Wilmington,DE,4 - Tier 4,$98000000
+SF00054,BR1054,E153,Zeta Core,Zeta Core Advisors,B1053,Gem State Financial,5050 Sycamore Court,Boise,ID,1 - Tier 1,$95700000
+SF00055,BR1055,E154,Eta Cornerstone,Eta Cornerstone Wealth,B1054,Pine Tree Investments,5151 Willow Road,Portland,ME,1 - Tier 1,$92400000
+SF00056,BR1056,E155,Theta Foundation,Theta Foundation Capital,B1055,Equality State Securities,5252 Aspen Lane,Cheyenne,WY,1 - Tier 1,$89800000
+SF00057,BR1057,E156,Iota Base,Iota Base Partners,B1056,Peace Garden Advisors,5353 Redwood Street,Fargo,ND,1 - Tier 1,$86500000
+SF00058,BR1058,E157,Kappa Cornerstone,Kappa Cornerstone Management,B1057,Mount Rushmore Financial,5454 Magnolia Avenue,Sioux Falls,SD,1 - Tier 1,$83900000
+SF00059,BR1059,E158,Lambda Core,Lambda Core Wealth,B1058,Yellowhammer Investments,5555 Dogwood Road,Birmingham,AL,1 - Tier 1,$80700000
+SF00060,BR1060,E159,Mu Foundation,Mu Foundation Advisors,B1059,Grand Canyon Securities,5656 Cypress Street,Tucson,AZ,1 - Tier 1,$77300000
+SF00061,BR1061,E160,Nu Cornerstone,Nu Cornerstone Capital,B1060,Land of Enchantment Advisors,5757 Poplar Drive,Albuquerque,NM,1 - Tier 1,$74800000
+SF00062,BR1062,E161,Xi Base,Xi Base Management,B1061,Hawkeye Financial,5858 Holly Lane,Des Moines,IA,1 - Tier 1,$71500000
+SF00063,BR1063,E162,Omicron Foundation,Omicron Foundation Partners,B1062,Sunflower State Securities,5959 Palm Road,Wichita,KS,1 - Tier 1,$68900000
+SF00064,BR1064,E163,Pi Cornerstone,Pi Cornerstone Wealth,B1063,Show Me State Investments,6060 Pine Avenue,Kansas City,MO,2 - Tier 2,$65600000
+SF00065,BR1065,E164,Rho Core,Rho Core Advisors,B1064,Big Sky Financial,6161 Oak Street,Helena,MT,2 - Tier 2,$62300000
+SF00066,BR1066,E165,Sigma Foundation,Sigma Foundation Capital,B1065,Tar Heel Securities,6262 Cedar Lane,Raleigh,NC,2 - Tier 2,$59700000
+SF00067,BR1067,E166,Tau Base,Tau Base Partners,B1066,Beaver State Advisors,6363 Birch Drive,Eugene,OR,2 - Tier 2,$56400000
+SF00068,BR1068,E167,Upsilon Cornerstone,Upsilon Cornerstone Management,B1067,Keystone Financial,6464 Walnut Road,Pittsburgh,PA,2 - Tier 2,$53800000
+SF00069,BR1069,E168,Phi Core,Phi Core Wealth,B1068,Ocean State Investments,6565 Spruce Circle,Providence,RI,2 - Tier 2,$50500000
+SF00070,BR1070,E169,Chi Foundation,Chi Foundation Advisors,B1069,Palmetto Securities,6666 Chestnut Court,Columbia,SC,2 - Tier 2,$47900000
+SF00071,BR1071,E170,Psi Cornerstone,Psi Cornerstone Capital,B1070,Volunteer Financial,6767 Sycamore Avenue,Knoxville,TN,2 - Tier 2,$44600000
+SF00072,BR1072,E171,Omega Core,Omega Core Management,B1071,Lone Star Advisors,6868 Willow Lane,Fort Worth,TX,2 - Tier 2,$41300000
+SF00073,BR1073,E172,Alpha Trust,Alpha Trust Partners,B1072,Beehive Securities,6969 Aspen Street,Provo,UT,2 - Tier 2,$38700000
+SF00074,BR1074,E173,Beta Heritage,Beta Heritage Wealth,B1073,Green Mountain Investments,7070 Redwood Road,Montpelier,VT,2 - Tier 2,$35400000
+SF00075,BR1075,E174,Gamma Trust,Gamma Trust Advisors,B1074,Old Dominion Financial,7171 Magnolia Circle,Richmond,VA,2 - Tier 2,$32800000
+SF00076,BR1076,E175,Delta Heritage,Delta Heritage Capital,B1075,Evergreen Securities,7272 Dogwood Court,Olympia,WA,3 - Tier 3,$29500000
+SF00077,BR1077,E176,Epsilon Trust,Epsilon Trust Partners,B1076,Mountain State Advisors,7373 Cypress Drive,Charleston,WV,3 - Tier 3,$26900000
+SF00078,BR1078,E177,Zeta Heritage,Zeta Heritage Management,B1077,Badger Financial,7474 Poplar Lane,Madison,WI,3 - Tier 3,$23600000
+SF00079,BR1079,E178,Eta Trust,Eta Trust Wealth,B1078,Equality Investments,7575 Holly Avenue,Casper,WY,3 - Tier 3,$20300000
+SF00080,BR1080,E179,Theta Heritage,Theta Heritage Advisors,B1079,Empire State Securities,7676 Palm Street,Buffalo,NY,3 - Tier 3,$17700000
+SF00081,BR1081,E180,Iota Trust,Iota Trust Capital,B1080,Buckeye Financial,7777 Pine Circle,Cincinnati,OH,3 - Tier 3,$14400000
+SF00082,BR1082,E181,Kappa Heritage,Kappa Heritage Partners,B1081,Sooner Advisors,7878 Oak Road,Tulsa,OK,3 - Tier 3,$11800000
+SF00083,BR1083,E182,Lambda Trust,Lambda Trust Management,B1082,Beaver Investments,7979 Cedar Court,Portland,OR,3 - Tier 3,$8500000
+SF00084,BR1084,E183,Mu Heritage,Mu Heritage Wealth,B1083,First State Securities,8080 Birch Lane,Dover,DE,3 - Tier 3,$5900000
+SF00085,BR1085,E184,Nu Trust,Nu Trust Advisors,B1084,Sunshine Financial,8181 Walnut Drive,Orlando,FL,3 - Tier 3,$3600000
+SF00086,BR1086,E185,Xi Heritage,Xi Heritage Capital,B1085,Peach State Advisors,8282 Spruce Road,Savannah,GA,3 - Tier 3,$1300000
+SF00087,BR1087,E186,Omicron Trust,Omicron Trust Partners,B1086,Aloha Investments,8383 Chestnut Avenue,Maui,HI,3 - Tier 3,$83600000
+SF00088,BR1088,E187,Pi Heritage,Pi Heritage Management,B1087,Gem State Securities,8484 Sycamore Street,Idaho Falls,ID,3 - Tier 3,$80300000
+SF00089,BR1089,E188,Rho Trust,Rho Trust Wealth,B1088,Prairie Financial,8585 Willow Road,Peoria,IL,3 - Tier 3,$77700000
+SF00090,BR1090,E189,Sigma Heritage,Sigma Heritage Advisors,B1089,Hoosier Advisors,8686 Aspen Circle,Fort Wayne,IN,3 - Tier 3,$74400000
+SF00091,BR1091,E190,Tau Trust,Tau Trust Capital,B1090,Hawkeye Securities,8787 Redwood Lane,Cedar Rapids,IA,4 - Tier 4,$71100000
+SF00092,BR1092,E191,Upsilon Heritage,Upsilon Heritage Partners,B1091,Bluegrass Investments,8888 Magnolia Court,Lexington,KY,4 - Tier 4,$67800000
+SF00093,BR1093,E192,Phi Trust,Phi Trust Management,B1092,Pelican Financial,8989 Dogwood Street,Shreveport,LA,4 - Tier 4,$64500000
+SF00094,BR1094,E193,Chi Heritage,Chi Heritage Wealth,B1093,Pine Tree Securities,9090 Cypress Avenue,Augusta,ME,4 - Tier 4,$61200000
+SF00095,BR1095,E194,Psi Trust,Psi Trust Advisors,B1094,Old Line Advisors,9191 Poplar Drive,Baltimore,MD,4 - Tier 4,$57900000
+SF00096,BR1096,E195,Omega Heritage,Omega Heritage Capital,B1095,Bay State Financial,9292 Holly Road,Worcester,MA,4 - Tier 4,$54600000
+SF00097,BR1097,E196,Alpha Integrity,Alpha Integrity Partners,B1096,Great Lakes Securities,9393 Palm Lane,Grand Rapids,MI,4 - Tier 4,$51300000
+SF00098,BR1098,E197,Beta Principle,Beta Principle Management,B1097,North Star Advisors,9494 Pine Street,Duluth,MN,4 - Tier 4,$48000000
+SF00099,BR1099,E198,Gamma Integrity,Gamma Integrity Wealth,B1098,Magnolia Financial,9595 Oak Circle,Jackson,MS,4 - Tier 4,$44700000
+SF00100,BR1100,E199,Delta Principle,Delta Principle Advisors,B1099,Show Me Securities,9696 Cedar Avenue,Springfield,MO,4 - Tier 4,$41400000
+SF00101,BR1101,E200,Epsilon Integrity,Epsilon Integrity Capital,B1100,Big Sky Advisors,9797 Birch Court,Missoula,MT,4 - Tier 4,$38100000
+SF00102,BR1102,E201,Zeta Principle,Zeta Principle Partners,B1101,Cornhusker Investments,9898 Walnut Lane,Lincoln,NE,4 - Tier 4,$34800000
+SF00103,BR1103,E202,Eta Integrity,Eta Integrity Management,B1102,Silver State Financial,9999 Spruce Drive,Carson City,NV,4 - Tier 4,$31500000
+SF00104,BR1104,E203,Theta Principle,Theta Principle Wealth,B1103,Granite Securities,10000 Chestnut Road,Concord,NH,1 - Tier 1,$28200000
+SF00105,BR1105,E204,Iota Integrity,Iota Integrity Advisors,B1104,Garden Advisors,10101 Sycamore Lane,Trenton,NJ,1 - Tier 1,$24900000
+SF00106,BR1106,E205,Kappa Principle,Kappa Principle Capital,B1105,Land of Enchantment Financial,10202 Willow Circle,Santa Fe,NM,1 - Tier 1,$21600000
+SF00107,BR1107,E206,Lambda Integrity,Lambda Integrity Partners,B1106,Empire Securities,10303 Aspen Street,Albany,NY,1 - Tier 1,$18300000
+SF00108,BR1108,E207,Mu Principle,Mu Principle Management,B1107,Tar Heel Advisors,10404 Redwood Avenue,Greensboro,NC,1 - Tier 1,$15000000
+SF00109,BR1109,E208,Nu Integrity,Nu Integrity Wealth,B1108,Peace Garden Financial,10505 Magnolia Drive,Bismarck,ND,1 - Tier 1,$11700000
+SF00110,BR1110,E209,Xi Principle,Xi Principle Advisors,B1109,Buckeye Securities,10606 Dogwood Court,Cleveland,OH,1 - Tier 1,$8400000
+SF00111,BR1111,E210,Omicron Integrity,Omicron Integrity Capital,B1110,Sooner Advisors,10707 Cypress Road,Norman,OK,1 - Tier 1,$5100000
+SF00112,BR1112,E211,Pi Principle,Pi Principle Partners,B1111,Beaver Financial,10808 Poplar Lane,Salem,OR,1 - Tier 1,$1800000
+SF00113,BR1113,E212,Rho Integrity,Rho Integrity Management,B1112,Keystone Securities,10909 Holly Street,Harrisburg,PA,1 - Tier 1,$135000000
+SF00114,BR1114,E213,Sigma Principle,Sigma Principle Wealth,B1113,Ocean Advisors,11010 Palm Circle,Newport,RI,1 - Tier 1,$131700000
+SF00115,BR1115,E214,Tau Integrity,Tau Integrity Advisors,B1114,Palmetto Financial,11111 Pine Court,Greenville,SC,2 - Tier 2,$128400000
+SF00116,BR1116,E215,Upsilon Principle,Upsilon Principle Capital,B1115,Volunteer Securities,11212 Oak Lane,Chattanooga,TN,2 - Tier 2,$125100000
+SF00117,BR1117,E216,Phi Integrity,Phi Integrity Partners,B1116,Lone Star Advisors,11313 Cedar Road,El Paso,TX,2 - Tier 2,$121800000
+SF00118,BR1118,E217,Chi Principle,Chi Principle Management,B1117,Beehive Financial,11414 Birch Avenue,Ogden,UT,2 - Tier 2,$118500000
+SF00119,BR1119,E218,Psi Integrity,Psi Integrity Wealth,B1118,Green Mountain Securities,11515 Walnut Street,Rutland,VT,2 - Tier 2,$115200000
+SF00120,BR1120,E219,Omega Principle,Omega Principle Advisors,B1119,Old Dominion Advisors,11616 Spruce Drive,Norfolk,VA,2 - Tier 2,$111900000
+SF00121,BR1121,E220,Alpha Pinnacle,Alpha Pinnacle Capital,B1120,Evergreen Financial,11717 Chestnut Court,Tacoma,WA,2 - Tier 2,$108600000
+SF00122,BR1122,E221,Beta Summit,Beta Summit Partners,B1121,Mountain State Securities,11818 Sycamore Road,Morgantown,WV,2 - Tier 2,$105300000
+SF00123,BR1123,E222,Gamma Pinnacle,Gamma Pinnacle Management,B1122,Badger Advisors,11919 Willow Lane,Green Bay,WI,2 - Tier 2,$102000000
+SF00124,BR1124,E223,Delta Summit,Delta Summit Wealth,B1123,Equality Financial,12020 Aspen Circle,Jackson,WY,2 - Tier 2,$98700000
+SF00125,BR1125,E224,Epsilon Pinnacle,Epsilon Pinnacle Advisors,B1124,Yellowhammer Securities,12121 Redwood Avenue,Mobile,AL,2 - Tier 2,$95400000
+SF00126,BR1126,E225,Zeta Summit,Zeta Summit Capital,B1125,Last Frontier Advisors,12222 Magnolia Drive,Fairbanks,AK,2 - Tier 2,$92100000
+SF00127,BR1127,E226,Eta Pinnacle,Eta Pinnacle Partners,B1126,Grand Canyon Financial,12323 Dogwood Road,Flagstaff,AZ,2 - Tier 2,$88800000
+SF00128,BR1128,E227,Theta Summit,Theta Summit Management,B1127,Natural State Securities,12424 Cypress Court,Fayetteville,AR,3 - Tier 3,$85500000
+SF00129,BR1129,E228,Iota Pinnacle,Iota Pinnacle Wealth,B1128,Golden State Advisors,12525 Poplar Lane,Oakland,CA,3 - Tier 3,$82200000
+SF00130,BR1130,E229,Kappa Summit,Kappa Summit Advisors,B1129,Rocky Mountain Financial,12626 Holly Street,Boulder,CO,3 - Tier 3,$78900000
+SF00131,BR1131,E230,Lambda Pinnacle,Lambda Pinnacle Capital,B1130,Constitution Securities,12727 Palm Circle,Hartford,CT,3 - Tier 3,$75600000
+SF00132,BR1132,E231,Mu Summit,Mu Summit Partners,B1131,First State Advisors,12828 Pine Avenue,Newark,DE,3 - Tier 3,$72300000
+SF00133,BR1133,E232,Nu Pinnacle,Nu Pinnacle Management,B1132,Sunshine Financial,12929 Oak Court,Fort Lauderdale,FL,3 - Tier 3,$69000000
+SF00134,BR1134,E233,Xi Summit,Xi Summit Wealth,B1133,Peach State Securities,13030 Cedar Lane,Augusta,GA,3 - Tier 3,$65700000
+SF00135,BR1135,E234,Omicron Pinnacle,Omicron Pinnacle Advisors,B1134,Aloha Advisors,13131 Birch Road,Hilo,HI,3 - Tier 3,$62400000
+SF00136,BR1136,E235,Pi Summit,Pi Summit Capital,B1135,Gem State Financial,13232 Walnut Drive,Twin Falls,ID,3 - Tier 3,$59100000
+SF00137,BR1137,E236,Rho Pinnacle,Rho Pinnacle Partners,B1136,Prairie Securities,13333 Spruce Avenue,Rockford,IL,3 - Tier 3,$55800000
+SF00138,BR1138,E237,Sigma Summit,Sigma Summit Management,B1137,Hoosier Advisors,13434 Chestnut Street,Bloomington,IN,3 - Tier 3,$52500000
+SF00139,BR1139,E238,Tau Pinnacle,Tau Pinnacle Wealth,B1138,Hawkeye Financial,13535 Sycamore Lane,Iowa City,IA,3 - Tier 3,$49200000
+SF00140,BR1140,E239,Upsilon Summit,Upsilon Summit Advisors,B1139,Sunflower Securities,13636 Willow Circle,Topeka,KS,3 - Tier 3,$45900000
+SF00141,BR1141,E240,Phi Pinnacle,Phi Pinnacle Capital,B1140,Bluegrass Advisors,13737 Aspen Drive,Frankfort,KY,4 - Tier 4,$42600000
+SF00142,BR1142,E241,Chi Summit,Chi Summit Partners,B1141,Pelican Financial,13838 Redwood Court,Lafayette,LA,4 - Tier 4,$39300000
+SF00143,BR1143,E242,Psi Pinnacle,Psi Pinnacle Management,B1142,Pine Tree Securities,13939 Magnolia Road,Bangor,ME,4 - Tier 4,$36000000
+SF00144,BR1144,E243,Omega Summit,Omega Summit Wealth,B1143,Old Line Advisors,14040 Dogwood Avenue,Annapolis,MD,4 - Tier 4,$32700000
+SF00145,BR1145,E244,Alpha Sterling,Alpha Sterling Advisors,B1144,Bay State Financial,14141 Cypress Lane,Springfield,MA,4 - Tier 4,$29400000
+SF00146,BR1146,E245,Beta Prestige,Beta Prestige Capital,B1145,Great Lakes Securities,14242 Poplar Street,Lansing,MI,4 - Tier 4,$26100000
+SF00147,BR1147,E246,Gamma Sterling,Gamma Sterling Partners,B1146,North Star Advisors,14343 Holly Road,Rochester,MN,4 - Tier 4,$22800000
+SF00148,BR1148,E247,Delta Prestige,Delta Prestige Management,B1147,Magnolia Financial,14444 Palm Court,Hattiesburg,MS,4 - Tier 4,$19500000
+SF00149,BR1149,E248,Epsilon Sterling,Epsilon Sterling Wealth,B1148,Show Me Securities,14545 Pine Circle,Jefferson City,MO,4 - Tier 4,$16200000
+SF00150,BR1150,E249,Zeta Prestige,Zeta Prestige Advisors,B1149,Big Sky Advisors,14646 Oak Lane,Bozeman,MT,4 - Tier 4,$12900000
+SF00151,BR1151,E250,Eta Sterling,Eta Sterling Capital,B1150,Cornhusker Investments,14747 Cedar Avenue,Grand Island,NE,4 - Tier 4,$9600000
+SF00152,BR1152,E251,Theta Prestige,Theta Prestige Partners,B1151,Silver State Financial,14848 Birch Street,Reno,NV,4 - Tier 4,$6300000
+SF00153,BR1153,E252,Iota Sterling,Iota Sterling Management,B1152,Granite Securities,14949 Walnut Court,Portsmouth,NH,4 - Tier 4,$3000000
+SF00154,BR1154,E253,Kappa Prestige,Kappa Prestige Wealth,B1153,Garden Advisors,15050 Spruce Road,Atlantic City,NJ,4 - Tier 4,$146000000
+SF00155,BR1155,E254,Lambda Sterling,Lambda Sterling Advisors,B1154,Land of Enchantment Financial,15151 Chestnut Drive,Las Cruces,NM,4 - Tier 4,$142700000
+SF00156,BR1156,E255,Mu Prestige,Mu Prestige Capital,B1155,Empire Securities,15252 Sycamore Circle,Rochester,NY,4 - Tier 4,$139400000
+SF00157,BR1157,E256,Nu Sterling,Nu Sterling Partners,B1156,Tar Heel Advisors,15353 Willow Lane,Asheville,NC,4 - Tier 4,$136100000
+SF00158,BR1158,E257,Xi Prestige,Xi Prestige Management,B1157,Peace Garden Financial,15454 Aspen Avenue,Grand Forks,ND,4 - Tier 4,$132800000
+SF00159,BR1159,E258,Omicron Sterling,Omicron Sterling Wealth,B1158,Buckeye Securities,15555 Redwood Street,Toledo,OH,4 - Tier 4,$129500000
+SF00160,BR1160,E259,Pi Prestige,Pi Prestige Advisors,B1159,Sooner Advisors,15656 Magnolia Circle,Lawton,OK,4 - Tier 4,$126200000
+SF00161,BR1161,E260,Rho Sterling,Rho Sterling Capital,B1160,Beaver Financial,15757 Dogwood Court,Bend,OR,4 - Tier 4,$122900000
+SF00162,BR1162,E261,Sigma Prestige,Sigma Prestige Partners,B1161,Keystone Securities,15858 Cypress Drive,Scranton,PA,1 - Tier 1,$119600000
+SF00163,BR1163,E262,Tau Sterling,Tau Sterling Management,B1162,Ocean Advisors,15959 Poplar Lane,Warwick,RI,1 - Tier 1,$116300000
+SF00164,BR1164,E263,Upsilon Prestige,Upsilon Prestige Wealth,B1163,Palmetto Financial,16060 Holly Avenue,Charleston,SC,1 - Tier 1,$113000000
+SF00165,BR1165,E264,Phi Sterling,Phi Sterling Advisors,B1164,Volunteer Securities,16161 Palm Street,Nashville,TN,1 - Tier 1,$109700000
+SF00166,BR1166,E265,Chi Prestige,Chi Prestige Capital,B1165,Lone Star Advisors,16262 Pine Road,Corpus Christi,TX,1 - Tier 1,$106400000
+SF00167,BR1167,E266,Psi Sterling,Psi Sterling Partners,B1166,Beehive Financial,16363 Oak Circle,St. George,UT,1 - Tier 1,$103100000
+SF00168,BR1168,E267,Omega Prestige,Omega Prestige Management,B1167,Green Mountain Securities,16464 Cedar Lane,Burlington,VT,1 - Tier 1,$99800000
+SF00169,BR1169,E268,Alpha Sovereign,Alpha Sovereign Wealth,B1168,Old Dominion Advisors,16565 Birch Court,Charlottesville,VA,1 - Tier 1,$96500000
+SF00170,BR1170,E269,Beta Imperial,Beta Imperial Advisors,B1169,Evergreen Financial,16666 Walnut Drive,Spokane,WA,1 - Tier 1,$93200000
+SF00171,BR1171,E270,Gamma Sovereign,Gamma Sovereign Capital,B1170,Mountain State Securities,16767 Spruce Avenue,Huntington,WV,1 - Tier 1,$89900000
+SF00172,BR1172,E271,Delta Imperial,Delta Imperial Partners,B1171,Badger Advisors,16868 Chestnut Street,Milwaukee,WI,1 - Tier 1,$86600000
+SF00173,BR1173,E272,Epsilon Sovereign,Epsilon Sovereign Management,B1172,Equality Financial,16969 Sycamore Road,Laramie,WY,2 - Tier 2,$83300000
+SF00174,BR1174,E273,Zeta Imperial,Zeta Imperial Wealth,B1173,Yellowhammer Securities,17070 Willow Lane,Huntsville,AL,2 - Tier 2,$80000000
+SF00175,BR1175,E274,Eta Sovereign,Eta Sovereign Advisors,B1174,Last Frontier Advisors,17171 Aspen Drive,Juneau,AK,2 - Tier 2,$76700000
+SF00176,BR1176,E275,Theta Imperial,Theta Imperial Capital,B1175,Grand Canyon Financial,17272 Redwood Circle,Scottsdale,AZ,2 - Tier 2,$73400000
+SF00177,BR1177,E276,Iota Sovereign,Iota Sovereign Partners,B1176,Natural State Securities,17373 Magnolia Court,Hot Springs,AR,2 - Tier 2,$70100000
+SF00178,BR1178,E277,Kappa Imperial,Kappa Imperial Management,B1177,Golden State Advisors,17474 Dogwood Lane,Fresno,CA,2 - Tier 2,$66800000
+SF00179,BR1179,E278,Lambda Sovereign,Lambda Sovereign Wealth,B1178,Rocky Mountain Financial,17575 Cypress Avenue,Fort Collins,CO,2 - Tier 2,$63500000
+SF00180,BR1180,E279,Mu Imperial,Mu Imperial Advisors,B1179,Constitution Securities,17676 Poplar Street,New Haven,CT,2 - Tier 2,$60200000
+SF00181,BR1181,E280,Nu Sovereign,Nu Sovereign Capital,B1180,First State Advisors,17777 Holly Road,Dover,DE,2 - Tier 2,$56900000
+SF00182,BR1182,E281,Xi Imperial,Xi Imperial Partners,B1181,Sunshine Financial,17878 Palm Drive,Pensacola,FL,2 - Tier 2,$53600000
+SF00183,BR1183,E282,Omicron Sovereign,Omicron Sovereign Management,B1182,Peach State Securities,17979 Pine Lane,Savannah,GA,3 - Tier 3,$50300000
+SF00184,BR1184,E283,Pi Imperial,Pi Imperial Wealth,B1183,Aloha Advisors,18080 Oak Circle,Kauai,HI,3 - Tier 3,$47000000
+SF00185,BR1185,E284,Rho Sovereign,Rho Sovereign Advisors,B1184,Gem State Financial,18181 Cedar Court,Coeur d'Alene,ID,3 - Tier 3,$43700000
+SF00186,BR1186,E285,Sigma Imperial,Sigma Imperial Capital,B1185,Prairie Securities,18282 Birch Avenue,Springfield,IL,3 - Tier 3,$40400000
+SF00187,BR1187,E286,Tau Sovereign,Tau Sovereign Partners,B1186,Hoosier Advisors,18383 Walnut Street,South Bend,IN,3 - Tier 3,$37100000
+SF00188,BR1188,E287,Upsilon Imperial,Upsilon Imperial Management,B1187,Hawkeye Financial,18484 Spruce Drive,Davenport,IA,3 - Tier 3,$33800000
+SF00189,BR1189,E288,Phi Sovereign,Phi Sovereign Wealth,B1188,Sunflower Securities,18585 Chestnut Lane,Overland Park,KS,3 - Tier 3,$30500000
+SF00190,BR1190,E289,Chi Imperial,Chi Imperial Advisors,B1189,Bluegrass Advisors,18686 Sycamore Court,Bowling Green,KY,3 - Tier 3,$27200000
+SF00191,BR1191,E290,Psi Sovereign,Psi Sovereign Capital,B1190,Pelican Financial,18787 Willow Road,Lake Charles,LA,3 - Tier 3,$23900000
+SF00192,BR1192,E291,Omega Imperial,Omega Imperial Partners,B1191,Pine Tree Securities,18888 Aspen Street,Portland,ME,3 - Tier 3,$20600000
+SF00193,BR1193,E292,Alpha Legacy,Alpha Legacy Management,B1192,Old Line Advisors,18989 Redwood Avenue,Frederick,MD,3 - Tier 3,$17300000
+SF00194,BR1194,E293,Beta Tradition,Beta Tradition Wealth,B1193,Bay State Financial,19090 Magnolia Circle,Cambridge,MA,3 - Tier 3,$14000000
+SF00195,BR1195,E294,Gamma Legacy,Gamma Legacy Advisors,B1194,Great Lakes Securities,19191 Dogwood Lane,Ann Arbor,MI,3 - Tier 3,$10700000
+SF00196,BR1196,E295,Delta Tradition,Delta Tradition Capital,B1195,North Star Advisors,19292 Cypress Court,St. Paul,MN,4 - Tier 4,$7400000
+SF00197,BR1197,E296,Epsilon Legacy,Epsilon Legacy Partners,B1196,Magnolia Financial,19393 Poplar Drive,Biloxi,MS,4 - Tier 4,$4100000
+SF00198,BR1198,E297,Zeta Tradition,Zeta Tradition Management,B1197,Show Me Securities,19494 Holly Street,St. Louis,MO,4 - Tier 4,$800000
+SF00199,BR1199,E298,Eta Legacy,Eta Legacy Wealth,B1198,Big Sky Advisors,19595 Palm Avenue,Billings,MT,4 - Tier 4,$172000000
+SF00200,BR1200,E299,Theta Tradition,Theta Tradition Advisors,B1199,Cornhusker Investments,19696 Pine Road,Omaha,NE,4 - Tier 4,$168700000
